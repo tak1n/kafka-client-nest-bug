@@ -8,7 +8,7 @@ async function bootstrap() {
   app.connectMicroservice<MicroserviceOptions>({
     transport: Transport.KAFKA,
     options: {
-      client: { clientId: 'kafka-bug', brokers: ['localhost:9094'] },
+      client: { clientId: 'kafka-bug', brokers: ['localhost:9092'] },
       consumer: {
         groupId: 'kafka-bug',
         allowAutoTopicCreation: true,
