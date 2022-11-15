@@ -12,6 +12,7 @@ import { AppController } from './app.controller';
           client: {
             brokers: ['localhost:9092'],
           },
+          producerOnlyMode: true,
         },
       },
     ]),
